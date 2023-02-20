@@ -2,3 +2,5 @@ dotenv
 twilio
 yagmail
 git+https://github.com/charlierguo/gmail
+certifi>=2022.12.7 # not directly required, pinned by Snyk to avoid a vulnerability
+pyjwt>=2.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
